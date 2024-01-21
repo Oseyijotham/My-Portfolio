@@ -1,0 +1,447 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    position: relative;
+    
+}
+
+header {
+background-color: #FFB8CA;
+}
+
+.container {
+    
+    padding-left: 56px;
+    padding-right: 56px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    padding-top: 37px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.logo {
+    
+}
+
+svg{}
+
+.nav__list {
+    margin-left: 128px;
+    position: absolute;
+    z-index: 2;
+    top: 52px;
+    color: #ffffff;
+    display: flex;
+    gap: 35px;
+}
+
+.nav__item {
+    color: #ffffff;
+    font-family: "DM Sans";
+    font-size: 16px;
+    
+    font-weight: 700;
+    
+}
+
+.nav__item--link{
+    color: #ffffff;
+    font-family: "DM Sans";
+    font-size: 16px;
+    
+    font-weight: 700;
+}
+
+.nav__item--link:hover {
+    color: #D41443;
+}
+
+.nav__link {
+margin-left: auto;
+padding-left: 37px;  
+padding-right: 53px;
+background-color: #ffffff;
+padding-top: 12px;
+padding-bottom: 11px;
+border-radius: 22px;
+display: flex;
+align-items: center;
+color: #D41443;
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.nav__link:hover {
+color: #ffffff;
+background-color: #D41443;
+}
+
+main{
+    
+    
+}
+
+.hero{
+    background-color: #FFB8CA;
+}
+
+.hero__container{
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.company {
+    position: relative;
+}
+
+.company__slogan {
+    color: #FFF;
+        font-family: "Titan One";
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.52px;
+        text-transform: uppercase;
+}
+
+.company__slogan--keyword {
+    color: #D41443;
+        font-family: "Titan One";
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 90.5%;
+        letter-spacing: 2.32px;
+        text-transform: uppercase;
+}        
+
+.company__info {
+    color: #D41443;
+        text-align: right;
+        font-family: "Titan One";
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        
+        text-transform: uppercase;
+        
+        display: flex;
+        justify-content: space-between;
+}
+
+.company__info:first-child {
+    margin-top: 5px;
+    
+}
+
+.company__info:nth-child(2) {
+    margin-top: 38px;
+}
+
+.company__info:first-child > span {
+  position: absolute;
+  top: 4px;
+  right: 18px;
+}
+
+.company__info:last-child > span {
+  position: absolute;
+  
+  right: 18px;
+}
+
+.company__info--num {
+  
+}
+
+.company__info--icon {
+    margin-bottom: 27px;
+  margin-left: auto;
+}
+
+.company__info--cafes{
+    letter-spacing: 1.84px;
+}
+
+.company__info--trucks {
+    padding-left: 27px;
+    letter-spacing: 1.84px;
+}
+
+.company__info--text {
+    color: #FFF;
+    text-align: right;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform:lowercase;
+    display: block;
+    margin-top: 2px;
+}
+
+.company__products{
+    margin-top: 24px;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+
+.company__products--details {
+    border-radius: 20px;
+    background: #FFF;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 23.66px;
+    padding-right: 22.63px;
+    color: #D41443;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.company__products--details:hover {
+
+    background: #D41443;
+    color: #FFF;
+}
+
+.company__product{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.company__product--illustration{
+    background: url(./images/slider-pic.jpg),  50% / cover no-repeat;
+    width: 213px;
+    height: 216px;
+           
+}
+
+.company__product--description {
+    width: 200px;
+    height: 78px;
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+        /* 19.6px */
+}
+
+.company__product--text{
+    margin-bottom: 20px;
+}
+
+.company__product--nav{
+    background: url(./images/arrow-right.jpg),  50% / cover no-repeat;
+    width: 26px;
+    height: 26px;
+    display: block; /*This is for making the anchor tag a block level element so that it can have a width and height*/
+}
+
+.company__ad {
+    width: 534px;
+    height: 534px;
+    border-radius: 534px;
+    background: #FFA5BA;
+    position: absolute;
+    left: 557px;
+    top: 54px;
+    z-index: 1;
+}
+
+.company__ad--pic {
+    width: 236px;
+    height: 557px;
+    /*background: url(./images/slider-pic2a.jpg),  50% / cover no-repeat;*/
+    display: block;
+    margin-top: 57px;
+    margin-left: 119px;
+}
+
+.customer__illustration {
+    position: absolute;
+    width: 304px;
+    height: 241px;
+    background: url(./images/slider-pic3.jpg), 50% / cover no-repeat;
+    right:56px;
+    bottom:0px;
+    z-index: 2;
+}
+
+/* PRODUCT SECTION */
+
+.container__bottom{
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.products__container {
+    background-color: #FFF;
+    padding-top: 61px;
+    padding-bottom: 60px;
+}
+
+.products__description {
+    color: #FFA5BA;
+        text-align: center;
+        font-family: "Titan One";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+}
+
+.products__heading{
+    color: #D41443;
+        text-align: center;
+        font-family: "Titan One";
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.48px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+}
+
+.products__illustrations{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    height: 796px;
+}
+
+.products__illustrations--pic{
+    width: 368px;
+    height: 394px;
+}
+
+.products__illustrations--item {
+    position: relative
+}
+
+.products__illustrations--info{
+    width: 368px;
+    height: 535px;
+    border-radius: 24px;
+    background: #FFB8CA;
+    position: absolute;
+    top: 261px;
+    z-index: 1;
+}
+
+.products__illustrations--cover{
+    position: absolute;
+    z-index: 2;
+}
+
+.products__illustrations--item:nth-child(2) > .products__illustrations--info{
+    background: #F0D1A5;
+}
+
+.products__illustrations--item:last-child > .products__illustrations--info {
+    background: #C2E297;
+}
+
+.products__illustrations--heading {
+    color: #FFF;
+        text-align: center;
+        font-family: "Titan One";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        margin-top: 163px;
+}
+
+.products__illustrations--icon{
+    margin-top: 32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products__illustrations--details{
+    width: 245px;
+    height: 106px;
+    color: #FFF;
+        text-align: center;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 176%;
+        /* 28.16px */
+        letter-spacing: 0.64px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 32px;
+}
+
+.products__illustrations--nav {
+    background: url(./images/arrow-right2.jpg), 50% / cover no-repeat;
+    width: 40px;
+    height: 40px;
+    display: block;
+    /*This is for making the anchor tag a block level element so that it can have a width and height*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.production{
+    background-color: #FFF5F6;
+}
+
+.production__container {
+    
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
