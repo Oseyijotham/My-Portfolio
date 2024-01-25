@@ -15,10 +15,38 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-Group-4 {
-  width: 4.1669921875em;
+.icon-comma {
+  width: 1.349609375em;
 }
 
-.icon-Icecream-logo {
+.icon-longline2 {
+  width: 410.5em;
+}
+
+.icon-longline1 {
+  width: 410.5em;
+}
+
+.icon-line {
+  width: 144em;
+}
+
+.icon-logo {
   width: 3.98046875em;
+}
+
+.icon-Group8 {
+  width: 8em;
+}
+
+.icon-formula3 {
+  width: 0.884765625em;
+}
+
+.icon-Vector3 {
+  width: 0.7998046875em;
+}
+
+.icon-Group-4 {
+  width: 4.1669921875em;
 }
