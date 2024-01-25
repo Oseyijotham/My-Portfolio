@@ -121,7 +121,7 @@ stroke: #D41443;
 }
 
 .nav__link--text {
-margin-right: 7px;
+margin-right: 12px;
 }
 
 
@@ -467,8 +467,8 @@ margin-right: 7px;
 .production{
     background-color: #FFF5F6;
     padding-top: 60px;
-    padding-bottom: 60px;
-    height: 2802px;
+    padding-bottom: 121px;
+    
       background-image: linear-gradient(to bottom,
             #FFF5F6 1229px,
             #FFF 1229px,
@@ -565,21 +565,19 @@ margin-right: 7px;
 }
 
 .production__details--nav{
-    color: #fff;
-        display: inline-block;
+        color: #fff;
+        
         font-family: "DM Sans";
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        
-        margin-left: 37px;
         border-radius: 22px;
         background: #D41443;
         padding-left: 37px;
-        padding-right: 56px;
-        padding-top: 11.5px;
-        padding-bottom: 11.5px;
+        padding-right: 37.96px;
+        padding-top: 14px;
+        padding-bottom: 14px;
         fill:#D41443;
         stroke: #FFF;
 }
@@ -596,7 +594,7 @@ margin-right: 7px;
 }
 
 .production__details--text{
-    margin-right: 7px;
+    margin-right: 13.62px;
 }
 
 .production__formula{
@@ -806,6 +804,7 @@ left:73px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:32px;
+    margin-bottom: 60px;
 }
 
 .schedule__cafe {
@@ -836,12 +835,12 @@ left:73px;
 }
 
 .schedule__cafe--location {
-    width: 67.901px;
+    
     color: #000;
         font-family: "DM Sans";
         font-size: 16px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 186%;
         /* 29.76px */
         letter-spacing: 0.64px;
@@ -876,13 +875,13 @@ left:73px;
  left:40px;   
 }
 
-.schedule__cafe--days{
+.schedule__cafe--weekdays{
     display: block;
     color: #000;
         font-family: "DM Sans";
         font-size: 16px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 186%;
         /* 29.76px */
         letter-spacing: 0.64px;
@@ -896,4 +895,344 @@ left:73px;
         font-weight: 500;
         line-height: 186%;
         /* 29.76px */
+}
+
+.schedule__cafe--weekends{
+    display: block;
+    margin-top: 12px;
+    color: #000;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 186%;
+        /* 29.76px */
+        letter-spacing: 0.64px;
+}
+
+.schedule__cafe--number{
+    display: block;
+    margin-top: 64px;
+    color: #907E82;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 183%;
+        /* 29.28px */
+}
+
+.schedule__cafe--number:hover {
+color: #D41443;
+}
+
+.schedule__cafe--email{
+    
+        color: #907E82;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 183%;
+}
+
+.schedule__cafe--email:hover {
+    color: #D41443;
+}
+
+.schedule__foodtruck{
+    position: relative;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 78px;
+        border-radius: 24px;
+        background: #FFF;
+        box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.10);
+}
+
+
+.schedule__foodtruck--heading {
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 29.76px */
+    letter-spacing: 0.64px;
+    background-color: #C2E297;
+    width: 138px;
+    height: 28px;
+    border-radius: 4px;
+}
+
+.schedule__foodtruck--location {
+
+    color: #000;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 29.76px */
+    letter-spacing: 0.64px;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.schedule__foodtruck--description {
+    margin-bottom: 64px;
+    color: #907E82;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 183%;
+    /* 29.28px */
+    letter-spacing: 0.64px;
+}
+
+
+.schedule__foodtruck--topicon {
+    position: absolute;
+    top: 220px;
+    left: 40px;
+}
+
+.schedule__foodtruck--bottomicon {
+    position: absolute;
+    top: 416px;
+    left: 40px;
+}
+
+.schedule__foodtruck--weekdays {
+    display: block;
+    color: #000;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 29.76px */
+    letter-spacing: 0.64px;
+}
+
+.schedule__foodtruck--times {
+    color: #FFA5BA;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 29.76px */
+}
+
+.schedule__foodtruck--weekends {
+    display: block;
+    margin-top: 12px;
+    color: #000;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 186%;
+    /* 29.76px */
+    letter-spacing: 0.64px;
+}
+
+.schedule__foodtruck--number {
+    display: block;
+    margin-top: 64px;
+    color: #907E82;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 183%;
+    /* 29.28px */
+}
+
+.schedule__foodtruck--number:hover {
+    color: #D41443;
+}
+
+.schedule__foodtruck--email {
+    
+    color: #907E82;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 183%;
+}
+
+.schedule__foodtruck--email:hover {
+    color: #D41443;
+}
+
+.outlets{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 12px;
+}
+
+.outlets__locations{
+padding-left: 35px;
+padding-right: 35.96px;
+padding-top: 14px;
+padding-bottom: 14px;
+border-radius: 22px;
+background-color: #D41342;
+color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    fill: #D41443;
+    stroke: #FFF;
+}
+
+.outlets__locations:hover {
+    background-color: #FFF;
+    color: #D41443;
+    fill: #FFF;
+    stroke: #D41443;
+}
+
+.outlets__locations--text {
+    margin-right: 13.62px;
+}
+
+
+.outlets__info {
+padding-left: 36.4px;
+padding-right: 37.29px;
+padding-top: 14px;
+padding-bottom: 14px;
+border-radius: 22px;
+    background-color: #D41342;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    fill: #D41443;
+    stroke: #FFF;
+}
+
+.outlets__info--text {
+    margin-right: 13.62px;
+}
+
+.outlets__info:hover {
+    background-color: #FFF;
+    color: #D41443;
+    fill: #FFF;
+    stroke: #D41443;
+}
+
+.outlets__info--icon {
+    stroke-width: 2px;
+}
+
+/**/
+
+footer{
+background-color: #FFF5F6;
+}
+
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.footer__slogan--top{
+color: #FFA5BA;
+    font-family: "Titan One";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.footer__slogan--bottom{
+    color: #D41443;
+        font-family: "Titan One";
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.48px;
+        text-transform: uppercase;
+}
+
+.footer__socials{
+    
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap:30px;
+    margin-bottom: 35px;
+}
+
+.footer__socials--links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    fill: #FFF;
+    background-color: #FEA5BB;
+    border-radius: 50%;
+}
+
+.footer__socials--links:hover{
+    background-color: #D41342;
+}
+
+.footer__contacts--label{
+color: #000;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 186%;
+    /* 29.76px */
+    letter-spacing: 0.32px;
+}
+
+.footer__contacts--number{
+    color: #D41443;
+        font-family: "DM Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 186%;
+        letter-spacing: 0.32px;
+}
+
+.footer__bottom--text{
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 4px;
+    color: #907E82;
+        font-family: "DM Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 186%;
+        /* 26.04px */
+        letter-spacing: 0.28px;
+        text-align: center;
 }

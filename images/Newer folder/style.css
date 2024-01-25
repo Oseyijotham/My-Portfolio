@@ -15,20 +15,24 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-comma {
+  width: 1.34375em;
+}
+
 .icon-footerline {
   width: 583.5em;
 }
 
-.icon-comma {
-  width: 1.349609375em;
+.icon-formula3 {
+  width: 0.875em;
 }
 
-.icon-longline2 {
-  width: 410.5em;
+.icon-Group-4 {
+  width: 4.15625em;
 }
 
-.icon-longline1 {
-  width: 410.5em;
+.icon-Group8 {
+  width: 8em;
 }
 
 .icon-line {
@@ -36,21 +40,17 @@ Single-colored icons can be modified like so:
 }
 
 .icon-logo {
-  width: 3.98046875em;
+  width: 3.96875em;
 }
 
-.icon-Group8 {
-  width: 8em;
+.icon-longline1 {
+  width: 410.5em;
 }
 
-.icon-formula3 {
-  width: 0.884765625em;
+.icon-longline2 {
+  width: 410.5em;
 }
 
 .icon-Vector3 {
-  width: 0.7998046875em;
-}
-
-.icon-Group-4 {
-  width: 4.1669921875em;
+  width: 0.8125em;
 }
