@@ -20,7 +20,7 @@ img {
 
 body {
     position: relative;
-    
+    background-color: #FFB8CA;
 }
 
 main {
@@ -38,7 +38,7 @@ main {
 /*HEADER SECTION*/
 
 header {
-background-color: #FFB8CA;
+
 }
 
 
@@ -129,7 +129,7 @@ margin-right: 12px;
 /*HERO SECTION*/
 
 .hero{
-    background-color: #FFB8CA;
+    
 }
 
 .hero__container{
@@ -270,10 +270,19 @@ margin-right: 12px;
 }
 
 .company__product--illustration{
-    background: url(./images/slider-pic.jpg),  50% / cover no-repeat;
+    background: url(../images/slider-pic.jpg),  50% / cover no-repeat;
     width: 213px;
     height: 216px;
-           
+          
+    transition-property: transform; 
+    /*transition-timing-function: ease;
+    transition-duration: 2000ms;*/
+}
+
+.company__product--illustration:hover {
+    transform: translateY(-5px);
+    /*transform: skewX(30deg); */
+
 }
 
 .company__product--description {
@@ -293,7 +302,7 @@ margin-right: 12px;
 }
 
 .company__product--nav{
-    background: url(./images/arrow-right.jpg),  50% / cover no-repeat;
+    background: url(../images/arrow-right.jpg),  50% / cover no-repeat;
     width: 26px;
     height: 26px;
     display: block; /*This is for making the anchor tag a block level element so that it can have a width and height*/
@@ -323,7 +332,7 @@ margin-right: 12px;
     position: absolute;
     width: 304px;
     height: 241px;
-    background: url(./images/slider-pic3.jpg), 50% / cover no-repeat;
+    background: url(../images/slider-pic3.jpg), 50% / cover no-repeat;
     right:56px;
     bottom:0px;
     z-index: 2;
@@ -452,7 +461,7 @@ margin-right: 12px;
 }
 
 .products__illustrations--nav {
-    background: url(./images/arrow-right2.jpg), 50% / cover no-repeat;
+    background: url(../images/arrow-right2.jpg), 50% / cover no-repeat;
     width: 40px;
     height: 40px;
     display: block;
@@ -481,7 +490,7 @@ margin-right: 12px;
 .production__background{
     width: 1200px;
     height: 521px;
-    background: url(./images/productionsection1.jpg), 0px -0.163px / 100% 100.063% no-repeat;
+    background: url(../images/productionsection1.jpg), 0px -0.163px / 100% 100.063% no-repeat;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -524,7 +533,7 @@ margin-right: 12px;
     
     width: 501px;
     height: 501px;
-    background: url(./images/productionsection2.png), 50% / cover no-repeat;
+    background: url(../images/productionsection2.png), 50% / cover no-repeat;
 }
 
 .production__details{
